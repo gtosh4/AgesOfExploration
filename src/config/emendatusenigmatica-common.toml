@@ -1108,7 +1108,7 @@ end_biome_list_invert = false
 
 ["Cobalt Config".Overworld]
 #Activate/Deactivate the Ore Gen in The Overworld [Default: true]
-generate_in_the_overworld = true
+generate_in_the_overworld = false
 #Baseline Y-Level [Default: 32]
 #Range: 0 ~ 256
 overworld_base = 32
@@ -1129,7 +1129,7 @@ overworld_biome_list_invert = false
 
 ["Cobalt Config"."The Nether"]
 #Activate/Deactivate the Ore Gen in The Nether [Default: false]
-generate_in_the_nether = false
+generate_in_the_nether = true
 #Baseline Y-Level [Default: 62]
 #Range: 0 ~ 128
 nether_base = 62
@@ -1173,7 +1173,7 @@ end_biome_list_invert = false
 
 ["Certus Quartz Config".Overworld]
 #Activate/Deactivate the Ore Gen in The Overworld [Default: true]
-generate_in_the_overworld = true
+generate_in_the_overworld = false
 #Baseline Y-Level [Default: 32]
 #Range: 0 ~ 256
 overworld_base = 32
@@ -1368,7 +1368,7 @@ end_biome_list_invert = false
 
 ["Bitumen Config".Overworld]
 #Activate/Deactivate the Ore Gen in The Overworld [Default: true]
-generate_in_the_overworld = true
+generate_in_the_overworld = false
 #Baseline Y-Level [Default: 100]
 #Range: 0 ~ 256
 overworld_base = 100
