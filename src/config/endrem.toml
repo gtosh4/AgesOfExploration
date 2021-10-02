@@ -1,0 +1,25 @@
+
+[endrem]
+	#Enable/Disable generation of vanilla strongholds
+	enable_strongholds = false
+	#Enable/Disable usage of Ender Eyes
+	enable_ender_eyes = false
+	#Enable/Disable the End Castle
+	enable_end_castle = true
+	#Enable/Disable the End Gate
+	enable_end_gate = true
+	#Distance in chunks between End Castles
+	castle_distance = 380
+	#Distance in chunks between End Gates
+	end_gate_distance = 380
+	#Distance in chunks between ancient witch huts
+	witch_hut_distance = 25
+	#Size of the End Gates
+	end_gate_size = 20
+	#Sets number of mobs inside the End Gate and the End Castle --> 0: No Mobs, 1: Easy, 2: Normal, 3: Hard, 4: Nightmare
+	structure_mob_difficulty = 2
+	#Changes the structure that End Remastered eyes track (set value to "null" to disable)
+	eye_behavior = "endrem:end_gate"
+	#Changes the structure that the End Remastered map locates (set value to "null" to disable)
+	map_behavior = "endrem:end_castle"
+
