@@ -100,7 +100,8 @@ profile_1 = [
 	"byg:white_standstone",
 	"byg:purple_sandstone",
 	"byg:brimstone",
-	"byg:magmatic_stone"
+	"byg:magmatic_stone",
+	"astralsorcery:marble_raw"
 ]
 #Profile 2 - A list of blocks to strip away from the world
 profile_2 = [
