@@ -198,9 +198,6 @@
   - [Tool Belt](https://www.curseforge.com/minecraft/mc-mods/tool-belt)
   - [Undying Curio](https://www.curseforge.com/minecraft/mc-mods/curio-of-undying)
   - [Tetra](https://www.curseforge.com/minecraft/mc-mods/tetra)
-    - ~~[Pak](https://www.curseforge.com/minecraft/mc-mods/tetra-pak)~~
-    - ~~[Tetranomicon](https://www.curseforge.com/minecraft/mc-mods/tetranomicon)~~
-    - ~~[Pak / nomicon compat](https://github.com/Noobulus/tetranomipak/tree/main)~~
   - [Bountiful Baubles](https://www.curseforge.com/minecraft/mc-mods/bountifulbaubles)
   - [MrCrayfish Gun Mod](https://www.curseforge.com/minecraft/mc-mods/mrcrayfishs-gun-mod)
     - [Timelss and Classic](https://www.curseforge.com/minecraft/mc-mods/timeless-and-classic)
