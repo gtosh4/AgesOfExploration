@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:flint_and_steel",
+      "nbt": "{Enchantments:[{id:\"minecraft:flame\",lvl:1s}]}"
+    },
+    "title": "Fire at Dawn",
+    "description": "Receive enchanted fire as a gift after sleeping in a desert pyramid crypt with a cat",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "dpyramid:adventure/pyramid",
+  "criteria": {
+    "gift": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{cc.dp.fns:1}"
+          }
+        ]
+      }
+    }
+  }
+}

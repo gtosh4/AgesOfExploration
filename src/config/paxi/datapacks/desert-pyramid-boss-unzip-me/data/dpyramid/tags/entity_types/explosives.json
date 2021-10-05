@@ -1,0 +1,11 @@
+{
+	"replace": false,
+	"values": [
+		"minecraft:boat",
+		"minecraft:dragon_fireball",
+		"minecraft:fireball",
+		"minecraft:tnt",
+		"minecraft:tnt_minecart",
+		"minecraft:wither_skull"
+    ]
+}

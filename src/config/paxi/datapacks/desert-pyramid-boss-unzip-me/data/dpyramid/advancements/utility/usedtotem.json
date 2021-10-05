@@ -1,0 +1,15 @@
+{
+  "rewards": {
+    "function": "dpyramid:utility/totembuff"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:used_totem",
+      "conditions": {
+        "item": {
+          "nbt": "{cc.dp.et:1}"
+        }
+      }
+    }
+  }
+}

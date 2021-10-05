@@ -1,0 +1,17 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:block_state_property",
+      "block": "blue_terracotta"
+    },
+    {
+      "condition": "minecraft:block_state_property",
+      "block": "orange_terracotta"
+    },
+    {
+      "condition": "minecraft:block_state_property",
+      "block": "cut_sandstone"
+    }
+  ]
+}

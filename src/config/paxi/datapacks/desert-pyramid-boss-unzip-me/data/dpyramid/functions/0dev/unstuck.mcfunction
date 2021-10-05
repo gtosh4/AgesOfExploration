@@ -1,0 +1,1 @@
+execute at @e[type=minecraft:armor_stand,tag=cc.dp.anchor,limit=1,sort=nearest] run spreadplayers ~ ~ 0 1 false @s

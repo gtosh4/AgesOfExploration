@@ -1,0 +1,1 @@
+tellraw @a [{"text":"CC's Desert Pyramid Boss ","color":"yellow"},{"text":"Full Release v1.5","color":"aqua"},{"text":" initialised! ","color":"green"},{"text":"[Link]","color":"gray","clickEvent":{"action":"open_url","value":"https://www.https://www.planetminecraft.com/data-pack/desert-temple-miniboss-wip/"}}]

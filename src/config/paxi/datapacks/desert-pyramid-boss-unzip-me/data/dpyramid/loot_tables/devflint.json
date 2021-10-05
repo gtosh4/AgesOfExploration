@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:gift",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:flint_and_steel",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "minecraft:flame"
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Unbreakable:1b,CanPlaceOn:[\"minecraft:orange_terracotta\"],display:{Name:'{\"text\":\"Enchanted Flint and Steel\",\"italic\":false}'},RepairCost:9999999,cc.dp.fns:1}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

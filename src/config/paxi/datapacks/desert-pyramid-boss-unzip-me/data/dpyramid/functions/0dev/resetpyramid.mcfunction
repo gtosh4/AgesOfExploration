@@ -1,0 +1,2 @@
+execute if predicate dpyramid:in_pyramid if block ~ ~-1 ~ minecraft:blue_terracotta run kill @e[type=minecraft:armor_stand,tag=cc.dp.anchor,distance=..5] 
+execute if predicate dpyramid:in_pyramid if block ~ ~-1 ~ minecraft:blue_terracotta positioned ~ ~-1 ~ run function dpyramid:detect_p/make_anchor

@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:chiseled_sandstone"
+    },
+    "title": "We Built This On A Solid Rock",
+    "description": "Enter a desert pyramid",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "adventure/root",
+  "criteria": {
+    "gift": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "desert_pyramid"
+        }
+      }
+    }
+  }
+}

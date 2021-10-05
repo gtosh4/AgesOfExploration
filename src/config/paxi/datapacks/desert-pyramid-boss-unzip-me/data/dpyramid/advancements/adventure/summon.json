@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:fire_charge"
+    },
+    "title": "Awakening the Pyramid",
+    "description": "Summon the Dymarip",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "dpyramid:adventure/getflint",
+  "criteria": {
+    "summon": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

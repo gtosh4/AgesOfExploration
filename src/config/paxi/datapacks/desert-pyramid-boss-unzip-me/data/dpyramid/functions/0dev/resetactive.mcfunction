@@ -1,0 +1,1 @@
+execute as @e[type=armor_stand,tag=cc.dp.anchor,tag=cc.dp.active] at @s run function dpyramid:battle/reset

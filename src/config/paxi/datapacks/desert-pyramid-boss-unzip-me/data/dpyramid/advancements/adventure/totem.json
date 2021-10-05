@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "totem_of_undying",
+      "nbt": "{Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}]}"
+    },
+    "title": "Postimmortal",
+    "description": "Use the Enchanted Totem of Undying to mock death",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "dpyramid:adventure/win",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:used_totem",
+      "conditions": {
+        "item": {
+          "nbt": "{cc.dp.et:1}"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,1 @@
+give @s minecraft:totem_of_undying{display:{Name:'{"text":"Enchanted Totem of Undying","color":"aqua","italic":false}'},HideFlags:1,cc.dp.et:1,Enchantments:[{id:"minecraft:protection",lvl:1s}]} 1

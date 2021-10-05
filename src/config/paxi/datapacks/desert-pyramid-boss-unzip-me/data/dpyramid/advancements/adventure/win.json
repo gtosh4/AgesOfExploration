@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:crossbow",
+      "nbt": "{Enchantments:[{id:\"minecraft:flame\",lvl:1s}]}"
+    },
+    "title": "Resting the Pyramid",
+    "description": "Defeat the Dymarip",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "dpyramid:adventure/summon",
+  "rewards": {
+    "experience": 100
+  },
+  "criteria": {
+    "summon": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

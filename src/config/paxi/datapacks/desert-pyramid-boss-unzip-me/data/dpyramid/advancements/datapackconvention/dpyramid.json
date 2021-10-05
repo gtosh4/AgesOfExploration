@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:flint_and_steel",
+      "nbt": "{Enchantments:[{id:\"minecraft:flame\",lvl:1s}]}"
+    },
+    "title": "Desert Pyramid Boss v1.5",
+    "description": "Desert Pyramids completely reworked! Run /reload for the wiki and the latest version!",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "parent": "global:cc",
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

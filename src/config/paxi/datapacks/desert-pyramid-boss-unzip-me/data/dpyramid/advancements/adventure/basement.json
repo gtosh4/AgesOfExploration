@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:golden_shovel",
+      "nbt": "{Enchantments:[{}]}"
+    },
+    "title": "Regional Treasure",
+    "description": "Dig up the totally not booby-trapped sand-caved basement in a desert pyramid",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "dpyramid:adventure/pyramid",
+  "criteria": {
+    "gift": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "dpyramid:basement"
+      }
+    }
+  }
+}

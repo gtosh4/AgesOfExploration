@@ -1,0 +1,18 @@
+{
+	"display": {
+		"title": "Chuan Caleb",
+		"description": "",
+		"icon": {
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner:{Name: \"caleb_c43va\", Properties: {textures: [{Value: \"eyJ0aW1lc3RhbXAiOjE1ODUxMDcwMjA2MTEsInByb2ZpbGVJZCI6ImU3MjViYmQyYzVkYjRkNjI4MWY4ZDY5OWI0MmFmZTIwIiwicHJvZmlsZU5hbWUiOiJjYWxlYl9jNDN2YSIsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8zNGFmNTM0ZTI0MDNlZjA1M2E1ZGI5ZDllNWMyNmVhMTkyMjE1NWYxODJkZDkwOGRiY2Y3MzUxOTNiNTk3Y2JhIn19fQ==\"}]}}}"
+		},
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "global:root",
+	"criteria": {
+		"trigger": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

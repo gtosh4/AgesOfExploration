@@ -1,0 +1,4 @@
+summon zombie_villager ~ ~ ~ {Team:"cc.dp.hidename",DeathLootTable:"dpyramid:mobs/zvill",Health:16f,Motion:[0.0,0.2,0.0],Tags:["cc.dp.mob","cc.dp.minion"],CustomName:'{"text":"Desert Pyramid Zombie Villager"}',HandItems:[{id:"minecraft:wooden_axe",Count:1b,tag:{AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:4,Operation:0,UUID:[I;0,1935675,0,609312],Slot:"mainhand"}]}},{}],HandDropChances:[0.000F,0.085F],ArmorItems:[{},{},{},{id:"minecraft:golden_helmet",Count:1b}],ArmorDropChances:[0.085F,0.085F,0.085F,0.000F],ActiveEffects:[{Id:12b,Amplifier:0b,Duration:19999980,ShowParticles:0b}],Attributes:[{Name:generic.max_health,Base:16},{Name:generic.movement_speed,Base:0.21}]}
+
+playsound minecraft:entity.turtle.egg_break hostile @a[distance=..10] ~ ~ ~ 5 0.2
+particle minecraft:poof ~ ~1 ~ 0.3 1 0.3 0.06 35

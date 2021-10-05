@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:armor_stand,tag=cc.dp.anchor,tag=cc.dp.cooldown] run scoreboard players set @s cc.dp.cooldown 11999

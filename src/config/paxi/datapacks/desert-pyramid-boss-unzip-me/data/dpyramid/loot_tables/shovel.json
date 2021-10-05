@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_shovel",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CanDestroy:[\"minecraft:sand\"],display:{Name:'{\"text\":\"Forbidden Golden Shovel\",\"color\":\"yellow\",\"italic\":false}'}}"
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "min": 0,
+                "max": 0.9
+              }
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 5,
+              "treasure": false
+            },
+            {
+              "function": "minecraft:looting_enchant",
+              "count": 1,
+              "limit": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
